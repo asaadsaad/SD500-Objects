@@ -2,6 +2,7 @@
 Create a TypeScript workspace, and implement CRUD operations for students and courses. 
 * Solve the question and store the data in both `data_1` and `data_2`.
 * All of the functions should not mutate `data_1` and `data_2`, but rather make the changes in immutable way.
+* Use utility types when needed.
 
 ```typescript
 type Course = { id: number, title: string, description: string; };
