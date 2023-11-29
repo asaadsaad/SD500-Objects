@@ -7,8 +7,8 @@ Create a TypeScript workspace, and implement CRUD operations for students and co
 type Course = { id: number, title: string, description: string; };
 type Student = { id: number, name: string, courses: Course[]; };
 
-const data_1: Student[] = [];
-const data_2: { [student_id: string]: { name: string, courses: Course[]; }; } = {};
+const data_1: readonly Student[] = Object.freeze([]);
+const data_2: { [student_id: string]: { name: string, courses: Course[]; }; } = Object.freeze({});
 
 getStudent(student_id: number): Student{ }
 addStudent(student: Student): boolean{ }
