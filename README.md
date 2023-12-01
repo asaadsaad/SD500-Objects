@@ -16,7 +16,7 @@ addStudent(student: Student): boolean { }
 updateStudent(student: Student): boolean { }
 removeStudent(student_id: number): boolean { }
 
-getCourse(student_id: number, course_id: number): Course| null { }
+getCourse(student_id: number, course_id: number): Course | null { }
 addCourse(student_id: number, course: Course): boolean { }
 updateCourse(student_id: number, course: Course): boolean { }
 removeCourse(student_id: number, course_id: number): boolean { }
